@@ -23,6 +23,6 @@ RULES:
 1- Please make one sensibly-named commit, which describes the aspect you are fixing.
 
 2- If you made a mistake and fixed it with a second or third minor commit, please combine them into one good commit.
-## Licença
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
