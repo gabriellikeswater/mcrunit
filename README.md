@@ -1,7 +1,7 @@
 
 # run it
 
-A Well-Documented Program to run your Minecraft Java Server with Style!
+A Well-Documented Program to run your Minecraft Java Server & Python Discord Bot with Style!
 
 ## How to add run it to your server
 
@@ -9,15 +9,17 @@ A Well-Documented Program to run your Minecraft Java Server with Style!
 
 2- Whatever version you choose, make sure to rename the (api).jar file in your server's folder to the one in the version you downloaded. (Eg. "arclight-forge-1.19.3-1.0.2.jar" -> "arclight.jar")
 
-3- Add the program to the main folder of your server.
+3- If you choose a version that also runs your python discord bot, rename the .py to dbot.py.
 
-4- Your done! Now, whenever you're going to start your server, just open the newly installed run it program!
+4- Add the program to the main folder of your server.
+
+5- Your done! Now, whenever you're going to start your server, just open the newly installed run it program!
 
 ## How to choose a version
 
 The run it program is distributed in various versions, to help fit your needs!
 
-Each version's name is divided in Gigabyte allocation (eg. 4G), API (eg. spigot) and whether you use the playit proxy or not.
+Each version's name is divided in Gigabyte allocation (eg. 4G), API (eg. spigot), whether you use the playit proxy or not and if you want to run your discord bot alongside the mc server.
 
 ## Contribution
 Since the run it project is open-source, anyone can submit a pull request or issue!
