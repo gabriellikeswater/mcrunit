@@ -9,11 +9,13 @@ A Well-Documented Program to run your Minecraft Java Server & Python Discord Bot
 
 2- Whatever version you choose, make sure to rename the (api).jar file in your server's folder to the one in the version you downloaded. (Eg. "arclight-forge-1.19.3-1.0.2.jar" -> "arclight.jar")
 
-3- If you choose a version that also runs your python discord bot, rename the .py to dbot.py.
+3- If you choose a version that also runs your python discord bot, rename the .py file in your server's folder to dbot.py. (Eg. "main.py" -> "dbot.py")
 
-4- Add the program to the main folder of your server.
+4- If you choose a version that uses playit, change the .exe file in your server's folder to playit.exe. (Eg. "playit-0.9.3-signed.exe" -> "playit.exe")
 
-5- Your done! Now, whenever you're going to start your server, just open the newly installed run it program!
+5- Add the program to the main folder of your server.
+
+6- Your done! Now, whenever you're going to start your server, just open the newly installed run it program!
 
 ## How to choose a version
 
