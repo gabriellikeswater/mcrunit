@@ -3,7 +3,7 @@
 
 A Well-Documented Program to run your Minecraft Java Server & Python Discord Bot with Style!
 
-## 🌍 How to add run it to your server
+## 🌍 How to add runit to your server
 
 1- Make sure to rename the (api).jar file in your server's folder to a more simple name. (Eg. "arclight-forge-1.19.3-1.0.2.jar" -> "arclight.jar")
 
