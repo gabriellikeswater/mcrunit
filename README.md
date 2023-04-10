@@ -1,9 +1,9 @@
 
-# run it
+# 🏃 Run It
 
 A Well-Documented Program to run your Minecraft Java Server & Python Discord Bot with Style!
 
-## How to add run it to your server
+## 🌍 How to add run it to your server
 
 1- Choose the right version of run it for your server. (eg. if you have a spigot server choose the spigot version. More info below.)
 
@@ -17,13 +17,13 @@ A Well-Documented Program to run your Minecraft Java Server & Python Discord Bot
 
 6- Your done! Now, whenever you're going to start your server, just open the newly installed run it program!
 
-## How to choose a version
+## 📜 How to choose a version
 
 The run it program is distributed in various versions, to help fit your needs!
 
 Each version's name is divided in Gigabyte allocation (eg. 4G), API (eg. spigot), whether you use the playit proxy or not and if you want to run your discord bot alongside the mc server.
 
-## Contribution
+## 🙋 Contribution
 Since the run it project is open-source, anyone can submit a pull request or issue!
 
 
