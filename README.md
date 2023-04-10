@@ -1,7 +1,7 @@
 
 # 🏃 Run It
 
-A Well-Documented Program to run your Minecraft Java Server & Python Discord Bot with Style!
+A Lightweight, Well-Documented Program to run your Minecraft Java Server & Python Discord Bot with Style!
 
 ## 🌍 How to add runit to your server
 
