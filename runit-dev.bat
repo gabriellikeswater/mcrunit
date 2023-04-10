@@ -78,12 +78,12 @@ pause
 
 echo.
 
-set /p input=Type "Xms2G"(Min Ram usable):
+set /p input=Type "Xms1G"(Min Ram usable):
 set /p replacement=Type it again but with your number of RAM:
 
 powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input%', '%replacement%'} | Set-Content '%filename%'
 
-set /p input2=Type "Xmx3G"(Max Ram usable):
+set /p input2=Type "Xmx1G"(Max Ram usable):
 set /p replacement2=Type it again but with your number of RAM:
 
 powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input2%', '%replacement2%'} | Set-Content '%filename%'
@@ -110,7 +110,7 @@ pause
 
 echo.
 
-set /p input3=Type "arclight":
+set /p input3=Type "example-api":
 set /p replacement3=Now, type your api:
 
 powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input3%', '%replacement3%'} | Set-Content '%filename%'
@@ -198,7 +198,7 @@ start "..\Python\Python311\python.exe" "dbot.py"
 
 start playit.exe
 
-java -Xmx3G -Xms2G -jar arclight.jar nogui ::CHANGEABLE: -Xmx3G & arclight.jar
+java -Xmx1G -Xms1G -jar example-api.jar nogui
 echo.
 
 echo   TYPE "mainarea" TO GO BACK TO THE MAIN AREA.
@@ -226,7 +226,7 @@ echo.
 echo   Please be patient, this may take a bit!
 echo.
 
-java -Xmx3G -Xms2G -jar arclight.jar nogui ::CHANGEABLE: -Xmx3G & arclight.jar
+java -Xmx1G -Xms1G -jar example-api.jar nogui 
 echo.
 
 echo   TYPE "mainarea" TO GO BACK TO THE MAIN AREA.
