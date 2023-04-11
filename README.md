@@ -1,9 +1,9 @@
 
-# 🏃 Run It
+# 🏃 MC Run It
 
 A Lightweight, Well-Documented Program to run your Minecraft Java Server & Python Discord Bot with Style!
 
-## 🌍 How to add runit to your server
+## 🌍 How to add mcrunit to your server
 
 1- Make sure to rename the (api).jar file in your server's folder to a more simple name. (Eg. "arclight-forge-1.19.3-1.0.2.jar" -> "arclight.jar")
 
@@ -11,9 +11,9 @@ A Lightweight, Well-Documented Program to run your Minecraft Java Server & Pytho
 
 3- If you want to use the playit proxy change the .exe file in your server's folder to playit.exe. (Eg. "playit-0.9.3-signed.exe" -> "playit.exe")
 
-4- Add runit to the main folder of your server.
+4- Add mcrunit to the main folder of your server.
 
-5- You're done! Now, whenever you're going to start your server, just open the newly installed runit program!
+5- You're done! Now, whenever you're going to start your server, just open the newly installed mcrunit program!
 
 ## 📜 More info...
 
