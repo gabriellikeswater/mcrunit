@@ -23,10 +23,10 @@ echo  - Type "info" for some pretty cool info.
 echo.
 echo  -----------------------Notes(below)---------------------
 echo.
-echo  - After executing the "runall" command, two windows will
-echo    show up. DON'T CLOSE THEM!
-echo  - You can't close both windows with the "stop" command
-echo    so you have to manually close them :D
+echo  - After executing the "runall" command, a few windows
+echo    will show up. DON'T CLOSE THEM!
+echo  - You can't close all the windows with the "stop"
+echo    command so you have to manually close them :P
 echo  - Anything typed in that's not a command in the program
 echo    will close the program.
 echo  - Remember, all of this ONLY works for WINDOWS.
@@ -41,8 +41,6 @@ if %option1% == runall goto runall
 if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
-
-goto
 
 pause
 
@@ -70,8 +68,6 @@ if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
 
-goto
-
 pause
 
 :changeram
@@ -81,14 +77,17 @@ echo.
 set /p input=Type "Xms1G"(Min Ram usable):
 set /p replacement=Type it again but with your number of RAM:
 
-powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input%', '%replacement%'} | Set-Content '%filename%'
+powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input%', '%replacement%'} | Set-Content '%filename%'"
 
 set /p input2=Type "Xmx1G"(Max Ram usable):
 set /p replacement2=Type it again but with your number of RAM:
 
-powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input2%', '%replacement2%'} | Set-Content '%filename%'
-echo Done.
+powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input2%', '%replacement2%'} | Set-Content '%filename%'"
 echo.
+echo Done, reloading...
+echo.
+timeout /t 2 /nobreak >nul
+start /B /c "%~f0" & goto configarea
 
 set /p option1= [%username%@runit]~ 
 if %option1% == changeram goto changeram
@@ -101,8 +100,6 @@ if %option1% == runall goto runall
 if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
-
-goto
 
 pause
 
@@ -110,12 +107,16 @@ pause
 
 echo.
 
-set /p input3=Type "example-api":
-set /p replacement3=Now, type your api:
+set /p input3=Type "example-api.jar":
+set /p replacement3=Now, type your api(with .jar):
 
-powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input3%', '%replacement3%'} | Set-Content '%filename%'
-echo Done.
+powershell -Command "(Get-Content '%filename%') | Foreach-Object {$_ -replace '%input3%', '%replacement3%'} | Set-Content '%filename%'"
 echo.
+echo Done, reloading...
+echo.
+timeout /t 2 /nobreak >nul
+start /B /c "%~f0" & goto configarea
+
 
 set /p option1= [%username%@runit]~ 
 if %option1% == changeram goto changeram
@@ -128,8 +129,6 @@ if %option1% == runall goto runall
 if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
-
-goto
 
 pause
 
@@ -158,8 +157,6 @@ if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
 
-goto
-
 pause
 
 :info
@@ -181,8 +178,6 @@ if %option1% == runall goto runall
 if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
-
-goto
 
 pause
 
@@ -214,8 +209,6 @@ if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
 
-goto
-
 pause
 
 :run
@@ -242,8 +235,6 @@ if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
 
-goto
-
 pause
 
 :runproxy
@@ -262,8 +253,6 @@ if %option1% == runall goto runall
 if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
-
-goto
 
 pause
 
@@ -285,7 +274,5 @@ if %option1% == runall goto runall
 if %option1% == run goto run
 if %option1% == runproxy goto runproxy
 if %option1% == runbot goto runbot
-
-goto
 
 pause
