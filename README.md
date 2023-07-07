@@ -1,5 +1,4 @@
-
-# 🏃 MC Run It
+# 🏃 MCrunit
 
 A Lightweight, Well-Documented Program to run your Minecraft Java Server & Python Discord Bot with Style!
 
