@@ -29,7 +29,7 @@ MCrunit works by Reading the files in the server folder... Ill keep working on t
 ...inside the program.
 
 ## Maintainer
-| [![Gabriel](https://avatars.githubusercontent.com/u/90223564?s=96&v=4)(https://github.com/gabriellikeswater)] |
+| [![Gabriel](https://avatars.githubusercontent.com/u/90223564?s=96&v=4)](https://github.com/gabriellikeswater) |
 |---|
 |[Gabriel](https://github.com/gabriellikeswater)
 
