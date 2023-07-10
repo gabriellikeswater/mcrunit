@@ -20,8 +20,6 @@ A Lightweight, Well-Documented Program to run your Minecraft Java Server & Pytho
 Playit.gg is a global proxy that allows anyone to host a videogame server without port forwarding by using tunneling, including minecraft. Only the server needs to run the program, not every player.
 Learn more at https://playit.gg
 
-TO ADD IT TO YOUR SERVER (?)
-
 ## How it works
 
 MCrunit works by Reading the files in the server folder... Ill keep working on this, future me
@@ -32,7 +30,7 @@ MCrunit works by Reading the files in the server folder... Ill keep working on t
 
 ## Maintainer
 | [![Gabriel](https://avatars.githubusercontent.com/u/90223564?s=96&v=4)(https://github.com/gabriellikeswater)] |
-|---|---|
+|---|
 |[Gabriel](https://github.com/gabriellikeswater)
 
 ## 🙋 Contribution
