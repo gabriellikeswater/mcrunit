@@ -1,5 +1,5 @@
 @echo off
-title ARE YOU DREAMING?
+title ARE YOU DREAMING? [v2.0]
 
 set "filename=%~f0"
 
