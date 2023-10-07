@@ -138,7 +138,7 @@ echo  - To run only the playit proxy, Type "runproxy"
 echo  - To run only the discord bot, Type "runbot"
 echo.
 
-sset /p option1= [%username%]~ 
+set /p option1= [%username%]~ 
 if %option1% == configarea goto configarea
 if %option1% == runarea goto runarea
 if %option1% == mainarea goto mainarea
